@@ -23,7 +23,7 @@ set (HEADERS
     src/config.h
 )
 
-add_executable(EKF_localization_known_correspondences
+add_executable(EKF_localization
     src/main.cpp
     src/EKF_localization.cpp
     src/robot.cpp
