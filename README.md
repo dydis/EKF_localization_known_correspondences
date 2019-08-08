@@ -12,7 +12,7 @@ The simulation consists of a robot with a range sensor that can detect known lan
 
 One addition I made was handle the case when angular velocity is zero. The original algorithm found in the book would result in a divide by zero.
 
-![ekf_localization](https://cloud.githubusercontent.com/assets/1471705/23337133/36ce48a4-fc38-11e6-952f-f79a08a3ccc1.png)
+![ekf_localization](https://raw.githubusercontent.com/dydis/EKF_localization_known_correspondences/master/ekfLocalisation.PNG)
 
 ###Requirements
 This demo code requires the following libraries
