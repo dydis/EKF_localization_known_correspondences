@@ -1,6 +1,7 @@
 #pragma once
 
 #include <Eigen/Dense>
+#include <vector>
 
 #include "landmark.h"
 
@@ -22,7 +23,7 @@ public:
 
 private:
     void init_ekf();
-    void calc_error_ellipse();
+    //void calc_error_ellipse();
     double constrain_angle(double radian);
     void ellipse(Eigen::MatrixXd X, double &major, double &minor, double &theta);
 

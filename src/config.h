@@ -16,10 +16,19 @@ static const int BOUNDARY_Y2 = 550;
 static const Landmark LANDMARKS[] = {
     // (x, y, red, green, blue)
     {100, 100, 1, 0, 0},
-    {WORLD_WIDTH - 100, 100, 1, 0,  0},
+    {WORLD_WIDTH - 100, 100, 1, 0, 0},
     {WORLD_WIDTH - 100, WORLD_HEIGHT - 100, 1, 0,  0},
     {100, WORLD_HEIGHT - 100, 1, 0,  0},
-    {WORLD_WIDTH/2, WORLD_HEIGHT/2, 1, 0,  0},
+    {50, 50, 1, 0, 0},
+    {75, 200, 1, 0, 0},
+    {250, 30, 1, 0,  0},
+    {WORLD_WIDTH/2 - 50, WORLD_WIDTH / 2 - 10, 1, 0, 0},
+    {WORLD_WIDTH / 2 + 20, WORLD_WIDTH / 2 + 5, 1, 0, 0},
+	{WORLD_WIDTH / 2 + 15, WORLD_WIDTH / 2 - 105, 1, 0, 0},
+	{WORLD_WIDTH / 2 - 15, WORLD_WIDTH / 2 + 65, 1, 0, 0},
+	{WORLD_WIDTH / 2 + 55, WORLD_WIDTH / 2, 1, 0, 0},
+	{WORLD_WIDTH / 2 - 15, WORLD_WIDTH / 2 - 245, 1, 0, 0},
+	{WORLD_WIDTH / 2 - 65, WORLD_WIDTH / 2 - 195, 1, 0, 0},
 };
 
 // motion noise parameters

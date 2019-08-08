@@ -1,7 +1,7 @@
 #pragma once
-
+#include <windows.h>
 #include <GL/gl.h>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include <string>
 #include <vector>
 
