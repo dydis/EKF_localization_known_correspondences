@@ -16,16 +16,19 @@ One addition I made was handle the case when angular velocity is zero. The origi
 ###Requirements
 This demo code requires the following libraries
 - SDL2
-- Eigen
+    SDL2 zip should be downloaded and placed in a specific folder (Tools in my case) (https://www.libsdl.org/release/SDL2-devel-2.0.10-VC.zip)
+    
+    When CMake asks for SDL2_DIR, just point at W:\Tools\SDL\SDL2-2.0.10
 
-I've only tested this on a Linux machine but it should work on Mac and Windows because both libraries are cross platform.
+- Eigen
+    Eigen should be downloaded and placed in a specific folder (Tools in my case) (http://bitbucket.org/eigen/eigen/get/3.3.7.zip)
+    Eigen path is : W:\Tools\Eigen\eigen-3.3.7
+    Environment variable EIGEN3_INCLUDE_DIR should be set to Eigen path:
+        setx EIGEN3_INCLUDE_DIR "W:\Tools\Eigen\eigen-3.3.7"
+
+Then you simply use CMake to get Visual project.
 
 ###Compiling
-```
-mkdir build
-cd build
-cmake ..
-make
-```
+
 ###Customization
 All the parameters for the simulation can be found in config.h
