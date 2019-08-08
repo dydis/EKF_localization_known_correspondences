@@ -1,6 +1,7 @@
 From https://nghiaho.com/?p=2355
 
 ###About the fork
+
 I forked this project to adapt it to Windows.
 
 ###Introduction 
@@ -29,6 +30,9 @@ This demo code requires the following libraries
 Then you simply use CMake to get Visual project.
 
 ###Compiling
+
+Use Visual.
+I tried it with Visual Studio 2019 and it worked fine.
 
 ###Customization
 All the parameters for the simulation can be found in config.h
