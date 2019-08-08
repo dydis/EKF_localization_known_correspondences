@@ -1,3 +1,8 @@
+From https://nghiaho.com/?p=2355
+
+###About the fork
+I forked this project to adapt it to Windows.
+
 ###Introduction 
 
 This is an implementation of the EKF localizationn with known correspondences from the book Probabilistic Robotics by Thrun et. al. I wrote this code to help me understand the material better. So others may find it useful as well.
